@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'ca84563b447b7a5b9ef892125a1a36c18e34df72',
+    'reference' => 'ab2e2ce16f1d19ae3e0db69b5328e189de365e4b',
     'name' => 'hcodebr/ecommerce',
   ),
   'versions' => 
@@ -41,7 +41,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'ca84563b447b7a5b9ef892125a1a36c18e34df72',
+      'reference' => 'ab2e2ce16f1d19ae3e0db69b5328e189de365e4b',
     ),
     'phpmailer/phpmailer' => 
     array (
