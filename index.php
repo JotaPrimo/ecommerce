@@ -1,22 +1,21 @@
-<?php 
+<?php
 
 require_once("vendor/autoload.php");
 
 use Slim\Slim;
-
 
 $app = new Slim();
 
 $app->config('debug', true);
 
 $app->get('/', function() {
-    
-	$sql = new Hcode\DB\Sql();
-	$users = $sql->select("SELECT * FROM tb_users"); 
-	echo json_encode($users);
-    
+
+    $page = new Hcode\Page();
+
+    $page->setTpl("index");
+
 });
 
 $app->run();
 
- ?>
+?>
